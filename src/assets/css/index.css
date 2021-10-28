@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Login Component*/
+.login-box{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    padding: 0;
+}
+.card-header{
+    background-color: white!important;
+    border-bottom: none!important;
+}
+.text-center{
+    font-family: 'Roboto', sans-serif;
+}
+/*Header Component*/
+.header-background{
+    background-color: #232f3e;
+    margin-bottom: 20px;
+}
+/*Button Component*/
+.button-bar{
+    border-bottom: 1px solid #232f3e;
+    height: 50px;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0!important;
+}
+.button{
+    float: right;
+    background-color: #33485a !important;
+    border: 1px solid  #405b76!important;
+}
+.button:hover{
+    background-color: #405b76!important;
+}
+/*Filter Component*/
+.filter-box{
+    float: left;
+    padding-right: 20px;
+    padding-left: 0;
+}
+.range-box{
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+}
+.range-title{
+    float: left;
+    height: 50px;
+}
+.range-title h6{
+    font-family: 'Roboto', sans-serif;
+}
+.range-slider{
+    width: 200px;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.range-slider svg, .range-slider input[type=range]{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+input[type=range]::-webkit-slider-thumb{
+    z-index: 2;
+    position: relative;
+    top: 2px;
+    margin-top: -7px;
+}
+.range-text{
+    width: 200px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+/*Table Data Component*/
+table tr th{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+table tr td{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.highlight{
+    background-color: #fcecef;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+}
